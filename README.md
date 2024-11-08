@@ -17,5 +17,5 @@ This Python script parses Gaussian TD (Time-Dependent) log files to extract exci
 The script accepts command-line arguments for input file specification and output options. Run the script as follows:
 
 ```bash
-python parse_gaussian_log.py -i <input_log_file> [--full] [--minimal]
+python td_extract.py -i <input_log_file> [--full] [--minimal]
 
